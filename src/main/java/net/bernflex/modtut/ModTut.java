@@ -27,7 +27,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(ModTut.MOD_ID)
 public class ModTut {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "modtutorial";
+    public static final String MOD_ID = "modtut";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
