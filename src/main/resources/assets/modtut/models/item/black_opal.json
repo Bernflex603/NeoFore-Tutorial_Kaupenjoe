@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures":{
-    "layer0": "modtutorial:item/black_opal"
+    "layer0": "modtut:item/black_opal"
   }
 }

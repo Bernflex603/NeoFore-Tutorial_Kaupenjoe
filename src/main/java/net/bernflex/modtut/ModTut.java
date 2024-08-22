@@ -1,5 +1,6 @@
 package net.bernflex.modtut;
 
+import net.bernflex.modtut.item.ModCreativeModeTabs;
 import net.bernflex.modtut.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.neoforge.common.CreativeModeTabRegistry;
@@ -37,6 +38,8 @@ public class ModTut {
     public ModTut(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
