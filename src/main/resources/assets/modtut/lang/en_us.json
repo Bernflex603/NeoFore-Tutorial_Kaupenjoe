@@ -1,6 +1,16 @@
 {
   "item.modtut.black_opal": "Black Opal",
   "item.modtut.raw_black_opal": "Raw Black Opal",
+
+  "block.modtut.black_opal_block": "Block of Black Opal ",
+  "block.modtut.raw_black_opal_block": "Block of Raw Black Opal ",
+
+  "block.modtut.black_opal_ore": "Black Opal Ore",
+  "block.modtut.black_opal_deepslate_ore": "Black Opal Deepslate Ore",
+  "block.modtut.black_opal_nether_ore": "Black Opal Nether Ore",
+  "block.modtut.black_opal_end_ore": "Black Opal End Ore",
+
+
   "itemGroup.modtut.black_opal_items_tab": "Black Opal Items",
   "itemGroup.modtut.black_opal_blocks_tab": "Black Opal Blocks"
 }

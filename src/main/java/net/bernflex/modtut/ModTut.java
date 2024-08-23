@@ -1,5 +1,6 @@
 package net.bernflex.modtut;
 
+import net.bernflex.modtut.block.ModBlocks;
 import net.bernflex.modtut.item.ModCreativeModeTabs;
 import net.bernflex.modtut.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -42,6 +43,7 @@ public class ModTut {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
