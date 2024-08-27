@@ -21,9 +21,11 @@ public class ModCreativeModeTabs {
             CREATIVE_MODE_TABS.register("black_opal_items_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.modtut.black_opal_items_tab"))
                     .icon(() -> new ItemStack(ModItems.BLACK_OPAL.get()))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.BLACK_OPAL);
-                        pOutput.accept(ModItems.RAW_BLACK_OPAL);
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.BLACK_OPAL);
+                        output.accept(ModItems.RAW_BLACK_OPAL);
+
+                        output.accept(ModItems.CHAINSAW);
 
                     }).build());
 
@@ -33,13 +35,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.modtut.black_opal_blocks_tab"))
                     .icon(() -> new ItemStack(ModBlocks.BLACK_OPAL_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ModTut.MOD_ID, "black_opal_items_tab"))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModBlocks.BLACK_OPAL_BLOCK);
-                        pOutput.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
-                        pOutput.accept(ModBlocks.BLACK_OPAL_ORE);
-                        pOutput.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
-                        pOutput.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
-                        pOutput.accept(ModBlocks.BLACK_OPAL_END_ORE);
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModBlocks.BLACK_OPAL_BLOCK);
+                        output.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
+                        output.accept(ModBlocks.BLACK_OPAL_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_END_ORE);
+
+                        output.accept(ModBlocks.MAGIC_BLOCK);
 
                     }).build());
 

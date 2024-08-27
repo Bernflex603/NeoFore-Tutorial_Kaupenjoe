@@ -1,6 +1,7 @@
 package net.bernflex.modtut.block;
 
 import net.bernflex.modtut.ModTut;
+import net.bernflex.modtut.block.custom.MagicBlock;
 import net.bernflex.modtut.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -36,6 +37,9 @@ public class ModBlocks {
     public static  final DeferredBlock<Block> BLACK_OPAL_END_ORE = registerBlock("black_opal_end_ore",
             () -> new DropExperienceBlock(UniformInt.of(2,5),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+
+    public static  final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
 
 

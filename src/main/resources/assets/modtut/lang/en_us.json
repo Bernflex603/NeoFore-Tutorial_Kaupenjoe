@@ -12,5 +12,8 @@
 
 
   "itemGroup.modtut.black_opal_items_tab": "Black Opal Items",
-  "itemGroup.modtut.black_opal_blocks_tab": "Black Opal Blocks"
+  "itemGroup.modtut.black_opal_blocks_tab": "Black Opal Blocks",
+
+  "item.modtut.chainsaw": "Chainsaw",
+  "block.modtut.magic_block": "Magic Block"
 }
